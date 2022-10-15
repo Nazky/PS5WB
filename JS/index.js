@@ -50,24 +50,20 @@ function hsf() {
     if (document.getElementById("tsf").innerHTML.includes("ᐁ")) {
         document.getElementById("fav").style.height = "0.1%";
         document.getElementById("tsf").innerHTML = "ᐃ";
-        document.getElementById("tsf").style.fontSize = "12px";
+        document.getElementById("tsf").style.fontSize = "50%";
         document.getElementById("fv").style.bottom = "5%";
-        document.getElementById("fv").style.fontSize = "20px";
-        document.getElementById("hsf").style.bottom = "6.5%";
+        document.getElementById("fv").style.fontSize = "80%";
+        document.getElementById("hsf").style.bottom = "6%";
         document.getElementById("wb").style.height = "83%";
     } else {
-        document.getElementById("tsf").style.fontSize = "18px";
+        document.getElementById("tsf").style.fontSize = "80%";
         document.getElementById("fav").style.height = "8%";
         document.getElementById("tsf").innerHTML = "ᐁ";
-        document.getElementById("fv").style.bottom = "14%";
-        document.getElementById("fv").style.fontSize = "25px";
-        document.getElementById("hsf").style.bottom = "15.5%";
-        document.getElementById("wb").style.height = "72%";
+        document.getElementById("fv").style.bottom = "14.5%";
+        document.getElementById("fv").style.fontSize = "100%";
+        document.getElementById("hsf").style.bottom = "16%";
+        document.getElementById("wb").style.height = "70%";
     }
-}
-
-function savefav() {
-    //alert(document.getElementById("fav").innerHTML);
 }
 
 function loadfav() {

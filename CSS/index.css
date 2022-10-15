@@ -3,24 +3,32 @@ body {
 }
 
 #wb {
-    height: 72%;
-    width: 99.4%;
+    position: absolute;
+    display: inline;
+    height: 70%;
+    width: 98.5%;
     border-radius: 15px;
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    margin-top: 1%;
     transition: 0.5s;
+
 }
 
 #sc {
+    position: relative;
     text-align: center;
     border-radius: 15px;
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    font-size: 20px;
-    width: 30%;
+    font-size: 90%;
+    width: 38%;
+    margin-right: 1%;
+}
+
+#top {
+    margin-bottom: 1%;
 }
 
 #bsc{
@@ -29,20 +37,17 @@ body {
     border-width: 5px;
     border-color: black;
     border-style: solid;
-    position: absolute;
-    left: 30%;
-    top: 1%;
+    position: relative;
+    display: inline;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
-    transition: 1s;
+    transition: 0.5s;
     cursor:pointer;
-    margin-left: 1%;
+
 }
 
 #bsc:hover {
-    border-radius: 15px;
+    background-color: rgb(179, 179, 179);
 }
 
 #btf{
@@ -51,20 +56,16 @@ body {
     border-width: 5px;
     border-color: black;
     border-style: solid;
-    position: absolute;
-    left: 36.5%;
-    top: 1%;
+    position: relative;
+    display: inline;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
-    transition: 1s;
+    transition: 0.5s;
     cursor:pointer;
-    margin-left: 1%;
 }
 
 #btf:hover {
-    border-radius: 15px;
+    background-color: rgb(179, 179, 179);
 }
 
 #bcf{
@@ -73,20 +74,16 @@ body {
     border-width: 5px;
     border-color: black;
     border-style: solid;
-    position: absolute;
-    left: 46.3%;
-    top: 1%;
+    position: relative;
+    display: inline;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
-    transition: 1s;
+    transition: 0.5s;
     cursor:pointer;
-    margin-left: 1%;
 }
 
 #bcf:hover {
-    border-radius: 15px;
+    background-color: rgb(179, 179, 179);
 }
 
 #hsf{
@@ -96,11 +93,10 @@ body {
     border-color: black;
     border-style: solid;
     position: absolute;
-    bottom: 15.5%;
+    bottom: 16%;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
+
     transition: 0.5s;
     cursor:pointer;
 
@@ -114,7 +110,7 @@ body {
     text-decoration: none;
     color: black;
     transition: 1s;
-    font-size: 18px;
+    font-size: 90%;
 }
 
 #tsc:hover {
@@ -125,7 +121,7 @@ body {
     text-decoration: none;
     color: black;
     transition: 1s;
-    font-size: 18px;
+    font-size: 80%;
 }
 
 #tsf:hover {
@@ -134,6 +130,7 @@ body {
 
 #fav {
     position: absolute;
+    display: inline;
     background-color: rgba(122, 122, 122, 0.74);
     bottom: 1%;
     padding-bottom: 1%;
@@ -144,14 +141,14 @@ body {
     border-color: black;
     border-width: 5px;
     border-style: solid;
-    width: 88.6%;
+    width: 88.5%;
     height: 8%;
     text-align: center;
-    overflow-x: au;
     overflow-y: auto;
     color: black;
     font-size: 15px;
     transition: 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #fav a {
@@ -167,10 +164,12 @@ body {
 #fv {
     z-index: -1;
     position: absolute;
+    display: inline;
     color: white;
-    bottom: 14%;
+    bottom: 14.5%;
     text-align: center;
     width: 99.5%;
     transition: 0.5s;
-    font-size: 25px;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

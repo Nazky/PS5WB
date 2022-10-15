@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(51, 51, 51);
+}
+
+#wb {
+    height: 72%;
+    width: 99.4%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 1%;
+    transition: 0.5s;
+}
+
+#sc {
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-size: 20px;
+    width: 30%;
+}
+
+#bsc{
+    background-color: white;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    left: 30%;
+    top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    transition: 1s;
+    cursor:pointer;
+    margin-left: 1%;
+}
+
+#bsc:hover {
+    border-radius: 15px;
+}
+
+#btf{
+    background-color: white;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    left: 36.5%;
+    top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    transition: 1s;
+    cursor:pointer;
+    margin-left: 1%;
+}
+
+#btf:hover {
+    border-radius: 15px;
+}
+
+#bcf{
+    background-color: white;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    left: 46.3%;
+    top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    transition: 1s;
+    cursor:pointer;
+    margin-left: 1%;
+}
+
+#bcf:hover {
+    border-radius: 15px;
+}
+
+#hsf{
+    background-color: white;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    bottom: 15.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    transition: 0.5s;
+    cursor:pointer;
+
+}
+
+#hsf:hover {
+    border-radius: 50px;
+}
+
+#tsc {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    font-size: 18px;
+}
+
+#tsc:hover {
+    color: rgb(73, 73, 73);
+}
+
+#tsf {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    font-size: 18px;
+}
+
+#tsf:hover {
+    color: rgb(73, 73, 73);
+}
+
+#fav {
+    position: absolute;
+    background-color: rgba(122, 122, 122, 0.74);
+    bottom: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    width: 88.6%;
+    height: 8%;
+    text-align: center;
+    overflow-x: au;
+    overflow-y: auto;
+    color: black;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+#fav a {
+    transition: 0.5s;
+}
+
+#fav a:hover {
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+}
+
+#fv {
+    z-index: -1;
+    position: absolute;
+    color: white;
+    bottom: 14%;
+    text-align: center;
+    width: 99.5%;
+    transition: 0.5s;
+    font-size: 25px;
+}
